@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="calculator">
+        <div class="top">
+            <span onclick="calc.buttonClick('C');" class="clear">C</span>
+            <div id="screen"></div>
+        </div>
+        
+        <div class="keys">
+            <span onclick="calc.buttonClick('7');">7</span >
+            <span onclick="calc.buttonClick('8');">8</span >
+            <span onclick="calc.buttonClick('9');">9</span >
+            <span onclick="calc.buttonClick('+');" class="operator">+</span >
+            <span onclick="calc.buttonClick('4');">4</span >
+            <span onclick="calc.buttonClick('5');">5</span >
+            <span onclick="calc.buttonClick('6');">6</span >
+            <span onclick="calc.buttonClick('-');" class="operator">-</span >
+            <span onclick="calc.buttonClick('1');">1</span >
+            <span onclick="calc.buttonClick('2');">2</span >
+            <span onclick="calc.buttonClick('3');">3</span >
+            <span onclick="calc.buttonClick('*');" class="operator">*</span >
+            <span onclick="calc.buttonClick('0');">0</span >
+            <span onclick="calc.buttonClick('.');">.</span >
+            <span onclick="calc.buttonClick('=');" class="eval">=</span >
+            <span onclick="calc.buttonClick('/');" class="operator">/</span >
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
